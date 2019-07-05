@@ -1,0 +1,16 @@
+#include <stdio.h>
+void main()
+{
+    char a;
+    printf("enter the alphabet\n");
+    scanf("%s",&a);
+    if (a=='a')
+    {
+    printf("vowels");
+    }
+    else 
+    {
+    printf("consonants");
+    }
+    return 0;
+    }
